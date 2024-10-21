@@ -10,7 +10,7 @@ function onNumClick(elCell) {
 }
 
 function onOperatorClick(elCell) {
-    console.log(elCell.innerText)
+    if(num1 && !num2) operator = elCell.innerText
 }
 
 function onCalc() {
